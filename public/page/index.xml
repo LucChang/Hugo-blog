@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Pages on LucChang Blog</title>
+        <link>http://localhost:1313/page/</link>
+        <description>Recent content in Pages on LucChang Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Fri, 09 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>About</title>
+        <link>http://localhost:1313/page/about/</link>
+        <pubDate>Wed, 09 Apr 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/page/about/</guid>
+        <description>&lt;h3 id=&#34;關於我&#34;&gt;關於我
+&lt;/h3&gt;&lt;p&gt;一位熱愛寫程式的菜鳥，攝影師，喜歡流浪動物。在程式方面我接觸過網頁開發、演算法、資訊安全以及機器學習相關的領域&lt;/p&gt;
+&lt;h3 id=&#34;競賽經歷&#34;&gt;競賽經歷
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;2024年7月  參加黑克松 銅獎&lt;/li&gt;
+&lt;li&gt;2024年8月  參加成長庚杯 特優&lt;/li&gt;
+&lt;li&gt;2024年11月 參加南二中新興科技物聯網競賽 特優&lt;/li&gt;
+&lt;li&gt;2024年11月 參加學科竟能競賽複賽 佳作&lt;/li&gt;
+&lt;li&gt;2025年3月  小論文投稿&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;營隊經歷&#34;&gt;營隊經歷
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;2024年7月 參加INOC CAMP&lt;/li&gt;
+&lt;li&gt;2024年8月 參加AIS3 Junior&lt;/li&gt;
+&lt;li&gt;2025年1月 參加SCIST 寒訓&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;程式語言框架&#34;&gt;程式語言&amp;amp;框架
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Javascript&lt;/li&gt;
+&lt;li&gt;Arduino&lt;/li&gt;
+&lt;li&gt;Css&lt;/li&gt;
+&lt;li&gt;HTML&lt;/li&gt;
+&lt;li&gt;C++&lt;/li&gt;
+&lt;li&gt;Python&lt;/li&gt;
+&lt;li&gt;Processing&lt;/li&gt;
+&lt;li&gt;React js&lt;/li&gt;
+&lt;li&gt;Hugo&lt;/li&gt;
+&lt;li&gt;Hexo&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;製作過的專題&#34;&gt;製作過的專題
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;跌倒辨識CNN機器學習&lt;/li&gt;
+&lt;li&gt;OpenCV 手勢辨識 &amp;amp;　OpenCV 畫面白板&lt;/li&gt;
+&lt;li&gt;Python Facebook Poke Selenium&lt;/li&gt;
+&lt;li&gt;苗栗露營地圖 (結合 Processing &amp;amp; Python 爬蟲技術)&lt;/li&gt;
+&lt;li&gt;WIFI Beacon 魔術道具&lt;/li&gt;
+&lt;li&gt;Arduino 水滴燈光裝置&lt;/li&gt;
+&lt;li&gt;無界塾國中畢業展物聯網燈光互動裝置&lt;/li&gt;
+&lt;li&gt;物件自動偵測以及定位裝置&lt;/li&gt;
+&lt;li&gt;AI 助理 Prompt injection ​復現 CVE-2021-3156 提權漏洞​&lt;/li&gt;
+&lt;li&gt;物聯網船體水深偵測專題&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>Archives</title>
+        <link>http://localhost:1313/page/archives/</link>
+        <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/page/archives/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Links</title>
+        <link>http://localhost:1313/page/links/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/page/links/</guid>
+        <description>&lt;p&gt;To use this feature, add &lt;code&gt;links&lt;/code&gt; section to frontmatter.&lt;/p&gt;
+&lt;p&gt;This page&amp;rsquo;s frontmatter:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;links&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  - &lt;span style=&#34;color:#f92672&#34;&gt;title&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;GitHub&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;description&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;GitHub is the world&amp;#39;s largest software development platform.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;website&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;https://github.com&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;image&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  - &lt;span style=&#34;color:#f92672&#34;&gt;title&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;TypeScript&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;description&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;website&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;https://www.typescriptlang.org&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#f92672&#34;&gt;image&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;ts-logo-128.jpg&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;code&gt;image&lt;/code&gt; field accepts both local and external images.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Search</title>
+        <link>http://localhost:1313/page/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/page/search/</guid>
+        <description></description>
+        </item>
+        
+    </channel>
+</rss>
