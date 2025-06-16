@@ -6,10 +6,10 @@
         <description>Recent content in 營隊 on LucChang Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Tue, 15 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/%E7%87%9F%E9%9A%8A/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 25 Apr 2025 09:42:57 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/%E7%87%9F%E9%9A%8A/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>AIS3 Junior 夏令營</title>
         <link>http://localhost:1313/post/summer-camp/</link>
-        <pubDate>Tue, 15 Apr 2025 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 25 Apr 2025 09:42:57 +0800</pubDate>
         
         <guid>http://localhost:1313/post/summer-camp/</guid>
         <description>&lt;img src="https://public-imgbed.pages.dev/file/1744726758922_Screenshot 2025-04-15 221605.png" alt="Featured image of post AIS3 Junior 夏令營" /&gt;&lt;h3 id=&#34;為什麼我要參加ais3-junior-資安營對&#34;&gt;為什麼我要參加AIS3 Junior 資安營對
@@ -18,8 +18,12 @@
 &lt;/h3&gt;&lt;p&gt;由於AIS3 Junior 舉辦地點在嘉義的中正大學，所以我千里迢迢的從新北市奔波到嘉義，幸好集合時間在下午五點，這樣我就不需要這麼的急忙。下午到了嘉義車站後，我姑丈開車載我到中正大學(他媽的為什麼不再火車站旁邊)，因為下雨的關係所以我遲到了15分鐘。到了集合地點我突然看見了很熟悉麼面孔，原來是前一個營隊的室友黃士育，不知道甚麼機緣我們又再次變成了室友，而且組別也相同。第一天其實沒有什麼行程，剛集合完就去住宿的地方了，晚上吃完飯回到宿舍就開始Setup隔天要使用的的kali虛擬機，大概就是這樣了。&lt;/p&gt;
 &lt;h3 id=&#34;day2&#34;&gt;Day2
 &lt;/h3&gt;&lt;p&gt;今天課程正式開始，早上我跟室友們從宿舍走道了講廳(超遠)，到了講廳終於遇到了小組的成員包含我們的隊輔(資安大老)，接下來就進入到了第一堂課了，主要就是在講資安倫理、資安攻擊方式以及趨勢等，到了第二堂課開始進入資安概論，學到了linux系統的基本指令以及架構，也有很多lab 的題目運用linux的指令取找flag。我是第一次接觸過linux的指令，整堂課整個矇掉，看到其他學員都行雲流水的打起鍵盤，但我只表現出不失所措的樣子，幸好助教以及組員們都很助人，我才慢慢地能夠理解linux指令的用法以及lab上的題目要做什麼。&lt;/p&gt;
-&lt;p&gt;下午除了破斌遊戲又有一個資安概論同樣的也是在講解linux指令以及使用方面的教學，同時也繼續上我們完成lab上的題目。到了&lt;/p&gt;
+&lt;p&gt;下午除了破斌遊戲又有一個資安概論同樣的也是在講解linux指令以及使用方面的教學，同時也繼續上我們完成lab上的題目。晚上回到宿舍就是lab 作業時間，所以大家都忙著解題，慢慢熟練Linux 的指令後，發現題目也沒有想像中的難，其實就是考驗對於Linux 指令的熟練度。&lt;/p&gt;
 &lt;h3 id=&#34;day3&#34;&gt;Day3
+&lt;/h3&gt;&lt;p&gt;來到了第三天，今天的上課主題與昨天不同，要上的是Web Security(網路安全)，主題更難了一些，需要了解一些網頁的概念以及協議等，但這些東西都是之前就有接觸過的東西。Web Security 這次教到的攻擊手法有XSS, LFI, Webshell, CMDi, SQLi, SSRF以及SSTI等，這些東西我從來沒有聽過，雖然在上課時對於這些攻擊方式的原理一知半解，也不太曉得這些攻擊守法的用途以及公用，但是透過lab 著手製造這些攻擊其實也挺有趣的，也讓我對於這些攻擊至少有一些幹念，透過不同的漏洞取得RCE(遠端程式碼執行)挺有成就感的。
+上午的課堂以及下午的第一堂課都在講解Web Security 相關的領域，到了下午第二堂就進入了這次的魔王主題「AI 應用安全實務」，這個主題是我認為非常有挑戰性，雖然AI釋普現現代人都用過的東西，但是運用在資安方面就是一個非常深奧的學問。在這個主題中我們先認識什麼事Transformer 模型，以及 Transformer 模型的原理，同樣的我們也認識到Prompt engineering，如何透過說話的藝術讓模型更清楚知道使用者要的東西，甚至繞過模型內部的規範，存取模型內部被禁止存取的東西。所以這幾天的lab我們一直在跟AI 助理聊天，要怎麼透過Prompt Injection的方式繞過模型內部審核機制來取得FLag，這個主題讓我心力憔悴，像是在寫作文一樣，構造不同的文具或是不同的技巧(改變attention 區間等)，讓模型繞過自己的審核機制真的超級困難，我的室友們很快就解出來了，無論我怎麼構造Prompt 最後都還是無法存取到flag，甚至花上了好幾小時的時間還是無法解開，可能我對於整個prompt 的 format 或是 Cot Prompting 的技巧還沒有這麼熟練。&lt;/p&gt;
+&lt;h3 id=&#34;day-4&#34;&gt;Day 4
+&lt;/h3&gt;&lt;h3 id=&#34;day-5&#34;&gt;Day 5
 &lt;/h3&gt;</description>
         </item>
         
