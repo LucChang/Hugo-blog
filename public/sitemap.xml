@@ -32,6 +32,15 @@
     <loc>http://localhost:1313/page/</loc>
     <lastmod>2020-10-09T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/google-hacking/</loc>
+    <lastmod>2024-05-28T15:04:05+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/google-hacking/google-hacking/</loc>
+    <lastmod>2024-05-28T15:04:05+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/introduce-cryptography/cryptography/</loc>
+    <lastmod>2024-05-28T15:04:05+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/post/picocft-writeup/writeup/</loc>
     <lastmod>2024-05-28T15:04:05+00:00</lastmod>
   </url><url>
@@ -39,6 +48,9 @@
     <lastmod>2024-05-28T15:04:05+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/xss/</loc>
+    <lastmod>2024-05-28T15:04:05+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/%E5%AF%86%E7%A2%BC%E5%AD%B8/</loc>
     <lastmod>2024-05-28T15:04:05+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/about-xss/about_xss/</loc>
@@ -94,6 +106,12 @@
   </url><url>
     <loc>http://localhost:1313/post/math-typesetting/</loc>
     <lastmod>2019-03-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/emoji/</loc>
+    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/emoji-support/</loc>
+    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/page/links/</loc>
   </url><url>

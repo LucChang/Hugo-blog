@@ -77,6 +77,163 @@
 </description>
         </item>
         <item>
+        <title>google-hacking 是什麼?</title>
+        <link>http://localhost:1313/post/google-hacking/google-hacking/</link>
+        <pubDate>Tue, 28 May 2024 15:04:05 +0000</pubDate>
+        
+        <guid>http://localhost:1313/post/google-hacking/google-hacking/</guid>
+        <description>&lt;h2 id=&#34;google-hacking深入探究網路世界的暗黑搜尋技巧&#34;&gt;Google Hacking：深入探究網路世界的「暗黑」搜尋技巧
+&lt;/h2&gt;&lt;p&gt;在浩瀚的網路世界中，Google 不僅僅是我們日常搜尋資料的工具，對於某些人來說，它更像一把能揭開網路世界隱藏層面的萬能鑰匙。這就是我們今天要探討的主題——Google Hacking，又稱為 Google Dorking。這項技術聽起來或許帶點神秘甚至危險的色彩，但它本質上是一種進階的搜尋技巧，利用 Google 強大的搜尋語法，發掘出一般搜尋難以觸及的資訊。&lt;/p&gt;
+&lt;p&gt;本文將帶您深入了解什麼是 Google Hacking、它的用途、基本使用方式，並探討其可能帶來的攻擊與漏洞，最後提供有效的防禦方法。&lt;/p&gt;
+&lt;h3 id=&#34;什麼是-google-hacking&#34;&gt;什麼是 Google Hacking？
+&lt;/h3&gt;&lt;p&gt;Google Hacking 並非傳統意義上的「駭客攻擊」，它不涉及入侵或破壞任何系統。相反地，它是一種「被動式」的資訊收集技術，利用 Google 搜尋引擎內建的進階搜尋運算子（Advanced Operators），來精準地過濾搜尋結果，從而找到伺服器上因設定不當或人為疏忽而暴露在外的敏感資訊。&lt;/p&gt;
+&lt;p&gt;這些資訊可能包括：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;網站的後台登入頁面&lt;/li&gt;
+&lt;li&gt;含有帳號密碼的設定檔案&lt;/li&gt;
+&lt;li&gt;內部的機密文件或報告&lt;/li&gt;
+&lt;li&gt;存在已知漏洞的網站版本資訊&lt;/li&gt;
+&lt;li&gt;網路攝影機的公開畫面&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;可以說，Google Hacking 的核心在於「挖掘」而非「攻擊」。它讓原本隱藏在網頁深處的資訊，因為符合特定的搜尋語法而被 Google 的爬蟲索引，最終呈現在搜尋結果中。&lt;/p&gt;
+&lt;h3 id=&#34;google-hacking-的用途&#34;&gt;Google Hacking 的用途
+&lt;/h3&gt;&lt;p&gt;Google Hacking 的用途廣泛，橫跨了善與惡的兩端：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;資安專業人員與滲透測試員：&lt;/strong&gt; 他們利用 Google Hacking 來評估自身或客戶網站的安全性。在攻擊者發現漏洞之前，先一步找出潛在的資安風險，並加以修補。這是一種合法且重要的網路安全實踐。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;網路犯罪者與駭客：&lt;/strong&gt; 不幸的是，惡意行為者也會利用這項技術來尋找攻擊目標。他們可以輕易地找到存在已知漏洞的網站，進而發動攻擊、竊取資料或植入惡意軟體。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;研究人員與記者：&lt;/strong&gt; 他們可以透過 Google Hacking 挖掘公開的數據、報告或未被廣泛注意到的資訊，作為研究或報導的素材。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;一般使用者：&lt;/strong&gt; 學習基本的 Google Hacking 技巧，也能提升個人的搜尋效率，更快速、精準地找到所需的特定類型檔案或資訊。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;基本的-google-hacking-使用方式&#34;&gt;基本的 Google Hacking 使用方式
+&lt;/h3&gt;&lt;p&gt;Google Hacking 的精髓在於活用各種搜尋語法。以下介紹幾個最基本且強大的運算子：&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;運算子&lt;/th&gt;
+          &lt;th&gt;功能&lt;/th&gt;
+          &lt;th&gt;範例&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;site:&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;將搜尋範圍限定在特定網站或網域。&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;site:example.com&lt;/code&gt; 只會搜尋來自 example.com 的結果。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;inurl:&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;搜尋網址中包含特定關鍵字的頁面。&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;inurl:login&lt;/code&gt; 可以找到網址中含有 &amp;ldquo;login&amp;rdquo; 的頁面，通常是登入頁面。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;intitle:&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;搜尋網頁標題中包含特定關鍵字的頁面。&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;intitle:&amp;quot;index of&amp;quot;&lt;/code&gt; 常用來尋找因設定不當而開放目錄瀏覽的網站。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;filetype:&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;搜尋特定檔案類型的文件。&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;個資外洩 filetype:pdf&lt;/code&gt; 可以找到與個資外洩相關的 PDF 文件。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;intext:&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;搜尋網頁內容中包含特定關鍵字的頁面。&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;intext:&amp;quot;username&amp;quot; intext:&amp;quot;password&amp;quot;&lt;/code&gt; 可能會找到包含帳號密碼資訊的頁面。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;&amp;quot;&amp;quot;&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;精確匹配引號內的字詞。&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;&amp;quot;Google Hacking&amp;quot;&lt;/code&gt; 會搜尋完整包含 &amp;ldquo;Google Hacking&amp;rdquo; 這個詞組的頁面。&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;code&gt;-&lt;/code&gt;&lt;/td&gt;
+          &lt;td&gt;排除包含特定關鍵字的結果。&lt;/td&gt;
+          &lt;td&gt;&lt;code&gt;apple -fruit&lt;/code&gt; 會搜尋與蘋果公司相關的資訊，並排除水果的結果。&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;這些運算子可以組合使用，產生更強大的搜尋效果。例如，&lt;code&gt;site:gov.tw filetype:xls 身份證&lt;/code&gt; 這個組合指令，就有可能找到政府網站上意外洩露的包含身分證號碼的 Excel 檔案。&lt;/p&gt;
+&lt;h3 id=&#34;google-hacking-攻擊與常見漏洞&#34;&gt;Google Hacking 攻擊與常見漏洞
+&lt;/h3&gt;&lt;p&gt;惡意攻擊者常利用 Google Hacking 來尋找以下幾種常見的網站漏洞：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;目錄遍歷 (Directory Traversal):&lt;/strong&gt; 網站伺服器設定不當，導致整個網站的目錄結構被公開。攻擊者可以使用 &lt;code&gt;intitle:&amp;quot;index of&amp;quot;&lt;/code&gt; 等語法，輕易地瀏覽網站的所有檔案，並可能找到設定檔、原始碼等敏感資訊。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;敏感檔案洩露:&lt;/strong&gt; 開發者或管理者不慎將含有敏感資訊的檔案，如設定檔 (&lt;code&gt;.conf&lt;/code&gt;, &lt;code&gt;.ini&lt;/code&gt;)、資料庫備份檔 (&lt;code&gt;.sql&lt;/code&gt;, &lt;code&gt;.mdb&lt;/code&gt;)、密碼檔 (&lt;code&gt;.passwd&lt;/code&gt;) 或日誌檔 (&lt;code&gt;.log&lt;/code&gt;) 放置在網站的公開目錄下。攻擊者可透過 &lt;code&gt;filetype:&lt;/code&gt; 運算子輕易找到這些檔案。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;後台登入頁面暴露:&lt;/strong&gt; 許多網站的後台登入頁面使用常見的名稱，如 &lt;code&gt;admin&lt;/code&gt;, &lt;code&gt;login&lt;/code&gt;, &lt;code&gt;manager&lt;/code&gt;。攻擊者可利用 &lt;code&gt;inurl:admin&lt;/code&gt; 或 &lt;code&gt;intitle:後台管理&lt;/code&gt; 等語法，快速找到這些登入入口，並嘗試進行暴力破解或猜測密碼。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;錯誤訊息洩露:&lt;/strong&gt; 當網站程式發生錯誤時，若伺服器設定不當，會將詳細的錯誤訊息直接顯示在網頁上。這些訊息可能包含資料庫的結構、伺服器路徑等敏感資訊，為攻擊者提供下一步攻擊的線索。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;公開的網路設備:&lt;/strong&gt; 許多網路設備，如網路攝影機、印表機、路由器等，其管理介面若未經適當保護，也可能被 Google 索引。透過 &lt;code&gt;inurl:&amp;quot;view/index.shtml&amp;quot;&lt;/code&gt; 或 &lt;code&gt;intitle:&amp;quot;Live View / - AXIS&amp;quot;&lt;/code&gt; 等特定語法，就有可能直接看到即時影像或存取設備的管理介面。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;防禦方法&#34;&gt;防禦方法
+&lt;/h3&gt;&lt;p&gt;面對 Google Hacking 的潛在威脅，網站管理者與開發者應採取積極的防禦措施：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;使用 &lt;code&gt;robots.txt&lt;/code&gt; 檔案:&lt;/strong&gt; 在網站根目錄下放置 &lt;code&gt;robots.txt&lt;/code&gt; 檔案，可以告知 Google 等搜尋引擎哪些目錄或檔案不應該被索引。這是最基本也是最重要的防禦手段。例如，可以加入以下指令來禁止所有爬蟲索引後台目錄：
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;User-agent: *
+Disallow: /admin/
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;適當的伺服器設定:&lt;/strong&gt; 關閉伺服器的目錄瀏覽功能。確保使用者無法在沒有索引檔案 (如 &lt;code&gt;index.html&lt;/code&gt;) 的情況下，直接看到整個目錄的檔案列表。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;移除不必要的檔案:&lt;/strong&gt; 定期檢查網站伺服器，移除任何不必要的設定檔、備份檔、測試檔案或含有敏感資訊的文件。切勿將機密資料存放在網站的公開目錄下。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;自訂錯誤頁面:&lt;/strong&gt; 設定自訂的錯誤頁面 (如 404 Not Found, 500 Internal Server Error)，避免向使用者顯示詳細的系統錯誤訊息。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;定期進行自我檢測:&lt;/strong&gt; 主動利用 Google Hacking 的技巧來檢測自己的網站。模擬攻擊者的思維，看看是否能找到任何不應被公開的資訊。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;使用 Google Search Console:&lt;/strong&gt; 網站管理者可以利用 Google Search Console 的「移除網址」功能，要求 Google 從搜尋結果中移除已經被索引的敏感頁面。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;強化存取控制:&lt;/strong&gt; 對於後台登入頁面或敏感的管理功能，應採用更強的存取控制措施，例如限制特定 IP 位址的存取、啟用雙因素認證 (2FA) 等。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;結論&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Google Hacking 是一把雙面刃。它既是資安人員保護網路世界的利器，也可能成為惡意人士發動攻擊的敲門磚。了解並掌握其原理與技巧，不僅能幫助我們更有效率地獲取資訊，更能讓我們意識到網路世界中潛在的資安風險。對於網站的擁有者與管理者而言，建立正確的資安觀念，並採取積極的防禦措施，才是杜絕 Google Hacking 所帶來威脅的根本之道。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>google-hacking 是什麼?</title>
+        <link>http://localhost:1313/post/introduce-cryptography/cryptography/</link>
+        <pubDate>Tue, 28 May 2024 15:04:05 +0000</pubDate>
+        
+        <guid>http://localhost:1313/post/introduce-cryptography/cryptography/</guid>
+        <description>&lt;h2 id=&#34;揭開數位世界的守護神密碼學在資訊安全中的應用與變革&#34;&gt;揭開數位世界的守護神：密碼學在資訊安全中的應用與變革
+&lt;/h2&gt;&lt;p&gt;在我們每天習以為常的數位生活中，從線上購物、收發電子郵件，到使用網路銀行，背後都有一位默默無聞的守護神——密碼學（Cryptography）。它是一門古老而又充滿現代活力的科學，透過將資訊「加密」轉換為難以解讀的密文，為我們的數位世界築起一道堅實的安全防線。&lt;/p&gt;
+&lt;p&gt;這篇部落格將帶您深入了解，密碼學主要應用在資訊安全的哪些關鍵領域，並回顧那些曾經風光一時，但如今已被時代淘汰的加密方法。&lt;/p&gt;
+&lt;h3 id=&#34;資訊安全的基石密碼學的三大應用場景&#34;&gt;資訊安全的基石：密碼學的三大應用場景
+&lt;/h3&gt;&lt;p&gt;密碼學在資訊安全領域的應用，主要可以分為以下三大核心：&lt;/p&gt;
+&lt;h4 id=&#34;1-傳輸中資料data-in-transit的保護打造安全的通訊管道&#34;&gt;1. 傳輸中資料（Data in Transit）的保護：打造安全的通訊管道
+&lt;/h4&gt;&lt;p&gt;當您在瀏覽網站、傳送訊息或進行線上交易時，您的資料會在您的裝置和遠端伺服器之間流動。這段過程中的資料，我們稱之為「傳輸中資料」。如果沒有加密保護，這些資料就像是裝在透明信封裡的信件，任何在傳輸路徑上的「有心人士」（如駭客）都能輕易窺探，甚至竄改內容。&lt;/p&gt;
+&lt;p&gt;這就是為什麼您會看到網址列旁有個鎖頭圖示，代表著 &lt;strong&gt;HTTPS（超文本傳輸安全協定）&lt;/strong&gt; 的啟用。HTTPS 運用了 &lt;strong&gt;TLS/SSL（傳輸層安全性/安全通訊端層）&lt;/strong&gt; 加密協定，為您的瀏覽器和網站伺服器之間建立一條加密通道，確保您輸入的密碼、信用卡號等敏感資訊，在網路世界中安全遨遊，不被竊取。&lt;/p&gt;
+&lt;p&gt;同樣地，許多即時通訊軟體，如 Signal、WhatsApp 等，也標榜採用 &lt;strong&gt;端到端加密（End-to-End Encryption, E2EE）&lt;/strong&gt;。這意味著訊息從發送方的手機加密後，只有接收方的手機才能解密，就連服務供應商本身也無法窺探通訊內容，最大程度地保障了通訊的隱私性。&lt;/p&gt;
+&lt;h4 id=&#34;2-靜態資料data-at-rest的保護為儲存的資訊上鎖&#34;&gt;2. 靜態資料（Data at Rest）的保護：為儲存的資訊上鎖
+&lt;/h4&gt;&lt;p&gt;除了在網路上流動的資料，我們還有大量的資料是儲存在硬碟、雲端空間、資料庫等儲存媒介中，這些我們稱之為「靜態資料」。舉凡公司的客戶資料、財務報表，或是您個人電腦中的重要文件，都需要妥善保護，以防裝置遺失、被盜或遭受未經授權的存取。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;全碟加密（Full-Disk Encryption）&lt;/strong&gt; 技術，如 Windows 的 BitLocker 或 macOS 的 FileVault，就是一個典型的例子。它會將整個硬碟的資料加密，沒有正確的密碼或金鑰，即使硬碟被拆走，也無法讀取其中的內容。同樣地，雲端儲存服務供應商也會對用戶儲存的檔案進行加密，確保資料在伺服器端的安全性。&lt;/p&gt;
+&lt;h4 id=&#34;3-數位簽章digital-signatures與身分驗證驗明正身防止偽冒&#34;&gt;3. 數位簽章（Digital Signatures）與身分驗證：驗明正身，防止偽冒
+&lt;/h4&gt;&lt;p&gt;在數位世界中，我們如何確認一份文件的真偽？如何驗證訊息的發送者就是他所聲稱的那個人？這就是「數位簽章」發揮作用的地方。&lt;/p&gt;
+&lt;p&gt;數位簽章運用了&lt;strong&gt;非對稱加密&lt;/strong&gt;的原理，發送者會使用自己的「私鑰」對文件進行簽署，而接收者則使用發送者公開的「公鑰」來驗證簽章。由於私鑰只有發送者本人持有，因此數位簽章具備了以下幾個重要特性：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;身分驗證（Authentication）：&lt;/strong&gt; 確認簽署者的身分。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;完整性（Integrity）：&lt;/strong&gt; 確保文件在簽署後未被竄改。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;不可否認性（Non-repudiation）：&lt;/strong&gt; 簽署者無法否認自己曾簽署過該文件。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;數位簽章被廣泛應用於電子合約、軟體發布（確保軟體未被植入惡意程式）、以及金融交易等需要高度信任的場景。&lt;/p&gt;
+&lt;h3 id=&#34;功成身退那些被淘汰的加密方法&#34;&gt;功成身退：那些被淘汰的加密方法
+&lt;/h3&gt;&lt;p&gt;隨著計算能力的飛速發展和密碼分析技術的進步，許多曾經被認為安全的加密演算法，如今已不再堅不可摧。繼續使用這些過時的方法，無異於將數位資產置於極大的風險之中。以下是一些已經被拋棄或不建議使用的加密方法：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;DES（Data Encryption Standard）：&lt;/strong&gt; 在 1970 年代被美國政府選為標準，但其 56 位元的金鑰長度在今日的計算能力下，已可被輕易地以「暴力破解法」破解。雖然其改良版 &lt;strong&gt;3DES（Triple DES）&lt;/strong&gt; 透過三次加密來強化安全性，但效率較低，現也已逐漸被 AES 取代。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;MD5（Message-Digest Algorithm 5）：&lt;/strong&gt; 這是一種廣泛使用的雜湊函式，主要用於驗證資料完整性。然而，MD5 已被證實存在「碰撞（Collision）」的弱點，意味著可以輕易地製造出兩份不同內容但具有相同 MD5 值的檔案。這使得它不再適用於數位簽章等安全性要求較高的場合。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;SHA-1（Secure Hash Algorithm 1）：&lt;/strong&gt; 作為 MD5 的後繼者，SHA-1 也曾是主流的雜湊演算法。然而，Google 在 2017 年成功實現了對 SHA-1 的碰撞攻擊，宣告了其安全性的終結。各大瀏覽器和作業系統現已停止支援 SHA-1 憑證。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;RC4（Rivest Cipher 4）：&lt;/strong&gt; 這是一種串流加密法，曾被廣泛應用於 SSL/TLS 和 WEP（有線等效加密）等協定中。然而，RC4 被發現存在多個安全漏洞，容易受到統計分析攻擊，因此已被視為不安全。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;SSL 2.0/3.0 及早期 TLS 版本：&lt;/strong&gt; 這些早期的安全通訊協定存在多個已知的安全漏洞，如 POODLE 攻擊，容易讓駭客解密傳輸中的資料。目前，業界普遍建議至少使用 TLS 1.2 或更新的 TLS 1.3 版本。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;展望未來迎向更安全的加密時代&#34;&gt;展望未來：迎向更安全的加密時代
+&lt;/h3&gt;&lt;p&gt;密碼學的世界是不斷演進的。為了應對日益增長的資安威脅，以及未來量子電腦可能帶來的衝擊，密碼學家們正積極研發更強大的加密演算法，例如目前被廣泛推薦使用的 &lt;strong&gt;AES（Advanced Encryption Standard）&lt;/strong&gt; 和 &lt;strong&gt;SHA-2（Secure Hash Algorithm 2）&lt;/strong&gt; 家族。&lt;/p&gt;
+&lt;p&gt;與此同時，&lt;strong&gt;後量子密碼學（Post-Quantum Cryptography, PQC）&lt;/strong&gt; 的研究也如火如荼地展開，目標是發展出能夠抵抗量子電腦攻擊的新一代加密標準。美國國家標準暨技術研究院（NIST）已提出計畫，預計在 2030 年後逐步淘汰現行的部分公鑰加密標準（如 RSA-2048），為量子時代的到來做好準備。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;結論&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;密碼學是資訊安全的基石，它保護著我們的數位通訊、儲存資料的隱私與安全。了解密碼學的基本應用，並意識到使用過時加密方法的風險，對於任何重視資訊安全的個人和組織都至關重要。在不斷變化的數位環境中，唯有採用當前公認安全的加密標準，並隨時關注最新的安全發展，才能確保我們的數位世界長治久安。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>picoCTF Write up</title>
         <link>http://localhost:1313/post/picocft-writeup/writeup/</link>
         <pubDate>Tue, 28 May 2024 15:04:05 +0000</pubDate>
@@ -391,13 +548,61 @@ CSP 並不能完全阻止 XSS 注入，但它可以極大地限制被注入腳�
 &lt;!-- raw HTML omitted --&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;twitter-simple-shortcode&#34;&gt;Twitter Simple Shortcode
-&lt;/h2&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;“In addition to being more logical, asymmetry has the advantage that its complete appearance is far more optically effective than symmetry.”&lt;br&gt;— Jan Tschichold &lt;a href=&#34;https://t.co/gcv7SrhvJb&#34;&gt;pic.twitter.com/gcv7SrhvJb&lt;/a&gt;&lt;/p&gt;&amp;mdash; Design Reviewed | Graphic Design History (@DesignReviewed) &lt;a href=&#34;https://twitter.com/DesignReviewed/status/1085870671291310081?ref_src=twsrc%5Etfw&#34;&gt;January 17, 2019&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/h2&gt;&lt;style type=&#34;text/css&#34;&gt;
+      .twitter-tweet {
+        font:
+          14px/1.45 -apple-system,
+          BlinkMacSystemFont,
+          &#34;Segoe UI&#34;,
+          Roboto,
+          Oxygen-Sans,
+          Ubuntu,
+          Cantarell,
+          &#34;Helvetica Neue&#34;,
+          sans-serif;
+        border-left: 4px solid #2b7bb9;
+        padding-left: 1.5em;
+        color: #555;
+      }
+      .twitter-tweet a {
+        color: #2b7bb9;
+        text-decoration: none;
+      }
+      blockquote.twitter-tweet a:hover,
+      blockquote.twitter-tweet a:focus {
+        text-decoration: underline;
+      }
+    &lt;/style&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;“In addition to being more logical, asymmetry has the advantage that its complete appearance is far more optically effective than symmetry.”&lt;br&gt;— Jan Tschichold &lt;a href=&#34;https://t.co/gcv7SrhvJb&#34;&gt;pic.twitter.com/gcv7SrhvJb&lt;/a&gt;&lt;/p&gt;&amp;mdash; Design Reviewed | Graphic Design History (@DesignReviewed) &lt;a href=&#34;https://twitter.com/DesignReviewed/status/1085870671291310081?ref_src=twsrc%5Etfw&#34;&gt;January 17, 2019&lt;/a&gt;&lt;/blockquote&gt;
 
 
 &lt;!-- raw HTML omitted --&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;vimeo-simple-shortcode&#34;&gt;Vimeo Simple Shortcode
-&lt;/h2&gt;&lt;div class=&#34;s_video_simple __h_video&#34;&gt;
+&lt;/h2&gt;&lt;style&gt;
+.__h_video {
+   position: relative;
+   padding-bottom: 56.23%;
+   height: 0;
+   overflow: hidden;
+   width: 100%;
+   background: #000;
+}
+.__h_video img {
+   width: 100%;
+   height: auto;
+   color: #000;
+}
+.__h_video .play {
+   height: 72px;
+   width: 72px;
+   left: 50%;
+   top: 50%;
+   margin-left: -36px;
+   margin-top: -36px;
+   position: absolute;
+   cursor: pointer;
+}
+&lt;/style&gt;&lt;div class=&#34;s_video_simple __h_video&#34;&gt;
           &lt;a href=&#34;https://vimeo.com/4.8912912e&amp;#43;07&#34; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;
             &lt;img src=&#34;https://i.vimeocdn.com/video/337401969-979f0cc9f55fdf305fb8984e90d92639ec9d7ecc4c9dfbc6536e28edb43784ce-d_640?region=us&#34; srcset=&#34;https://i.vimeocdn.com/video/337401969-979f0cc9f55fdf305fb8984e90d92639ec9d7ecc4c9dfbc6536e28edb43784ce-d_640?region=us 1x, https://i.vimeocdn.com/video/337401969-979f0cc9f55fdf305fb8984e90d92639ec9d7ecc4c9dfbc6536e28edb43784ce-d_640?region=us 2x&#34; alt=&#34;Sing Jan Swing - Kinetic Type&#34;&gt;
             &lt;div class=&#34;play&#34;&gt;
@@ -506,6 +711,28 @@ CSP 並不能完全阻止 XSS 注入，但它可以極大地限制被注入腳�
 $$
 \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
 $$&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>Emoji Support</title>
+        <link>http://localhost:1313/post/emoji-support/</link>
+        <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/post/emoji-support/</guid>
+        <description>&lt;img src="http://localhost:1313/post/emoji-support/the-creative-exchange-d2zvqp3fpro-unsplash.jpg" alt="Featured image of post Emoji Support" /&gt;&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;
+&lt;p&gt;The &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/functions/emojify/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;code&gt;emojify&lt;/code&gt;&lt;/a&gt; function can be called directly in templates or &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/templates/shortcode-templates/#inline-shortcodes&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Inline Shortcodes&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To enable emoji globally, set &lt;code&gt;enableEmoji&lt;/code&gt; to &lt;code&gt;true&lt;/code&gt; in your site&amp;rsquo;s &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/getting-started/configuration/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;configuration&lt;/a&gt; and then you can type emoji shorthand codes directly in content files; e.g.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;The &lt;a class=&#34;link&#34; href=&#34;http://www.emoji-cheat-sheet.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Emoji cheat sheet&lt;/a&gt; is a useful reference for emoji shorthand codes.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;N.B.&lt;/strong&gt; The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;.emoji {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  font-family: Apple Color Emoji, Segoe UI Emoji, NotoColorEmoji, Segoe UI Symbol, Android Emoji, EmojiSymbols;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
         </item>
         <item>
         <title>Links</title>
